@@ -1,5 +1,5 @@
 {
-    "name": "com.WB.TestPackages",
+    "name": "com.wb.testpackage",
     "version": "0.0.1",
     "displayName": "测试自定义Package包",
     "description": "这个是一个测试的包",
