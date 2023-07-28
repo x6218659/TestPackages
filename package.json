@@ -4,9 +4,8 @@
     "displayName": "测试自定义Package包",
     "description": "这个是一个测试的包",
     "unity": "2019.1",
-    "dependencies": {
-      "com.[company-name].some-package": "1.0.0"    
-   },
+    "dependencies": {     
+    },
    "keywords": [
       "Test"
     ],
