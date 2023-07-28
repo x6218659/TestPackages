@@ -1,7 +1,7 @@
 {
     "name": "com.wb.testpackage",
-    "version": "0.0.1",
-    "displayName": "测试自定义Package包",
+    "version": "0.0.2",
+    "displayName": "testpackage",
     "description": "这个是一个测试的包",
     "unity": "2019.1",
     "dependencies": {     
@@ -11,7 +11,7 @@
     ],
     "samples": [
         {
-            "displayName": "测试用例",
+            "displayName": "testSample",
             "description": "简单介绍",
             "path": "Samples~/ABC"
         }      
