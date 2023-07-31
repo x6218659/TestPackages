@@ -1,6 +1,6 @@
 {
     "name": "com.wb.testpackage",
-    "version": "0.0.10",
+    "version": "0.0.11",
     "displayName": "testpackage",
     "description": "这个是一个测试的包",
     "unity": "2019.1",
