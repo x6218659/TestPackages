@@ -6,7 +6,7 @@ cd /d %GAME_PROJECT_OUTPUTGITFOLDER%
 ::写入最新版本号到Versions.txt中
 echo %~2 > Versions.txt
 ::将所有改动添加
-git add
+git add .
 ::提交 后续跟上一个注释，这个注释是调起 bat 的第一个参数
 git commit -a -m %~1
 ::设置 标签内容
