@@ -23,5 +23,3 @@ echo            "path": "Samples~/Test" >> package.json
 echo        } >> package.json
 echo    ] >> package.json
 echo } >> package.json
-
-exit 0
