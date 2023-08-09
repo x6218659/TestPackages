@@ -16,4 +16,6 @@ git tag -a %~2 -m %~1
 ::强制推送本地版本到远程，作为最新版，忽略其他，因为内容的变化基于Excel，所以此处不处理冲突
 git push origin --force
 
+pause
+
 exit 0
