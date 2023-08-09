@@ -7,9 +7,8 @@ cd /d %GAME_PROJECT_OUTPUTGITFOLDER%
 echo %~2 > Versions.txt
 call MakeLastVersion.bat %~2
 
-::提交时转换为LF，检出时转换为CRLF
-git config --global core.autocrlf true
-
+::提交检出均不转换
+git config --global core.autocrlf false
 ::将所有改动添加
 git add .
 ::提交 后续跟上一个注释，这个注释是调起 bat 的第一个参数
