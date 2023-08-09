@@ -1,0 +1,27 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/Editor/TestToolKit/Uss/One.uss?fileID=7433441132597879392&amp;guid=44c68f444c9e1724ebab2c04e22babe0&amp;type=3#One" />
+    <ui:VisualElement style="justify-content: space-between; align-items: stretch; flex-grow: 1;">
+        <ui:VisualElement name="Tittle" style="height: 40px; flex-basis: 40px;">
+            <ui:Label text="Configs配置更新面板" display-tooltip-when-elided="true" style="white-space: nowrap; -unity-text-align: middle-center; flex-basis: 100%; -unity-font-style: normal; color: rgb(255, 255, 255); font-size: 16px; height: auto; flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="NewUpdatePanel" style="height: 40px; flex-basis: 40px; background-color: rgb(195, 106, 106);">
+            <ui:Label text="有新的配置版本！v0.0.15" display-tooltip-when-elided="true" name="NewVerInfoLabel" style="white-space: nowrap; -unity-text-align: middle-center; flex-basis: 100%; -unity-font-style: normal; color: rgb(255, 255, 255); font-size: 16px; height: auto; flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Info" style="flex-basis: auto; background-color: rgba(0, 0, 0, 0.32); flex-grow: 1; height: 60%;">
+            <ui:ScrollView name="InfoScrollView" style="flex-basis: 100%; flex-grow: 1;">
+                <ui:Label display-tooltip-when-elided="true" name="VerInfoLabel" style="flex-basis: auto; flex-shrink: 1; font-size: 15px; -unity-font-style: normal;" />
+            </ui:ScrollView>
+        </ui:VisualElement>
+        <ui:GroupBox name="TestBox" style="flex-grow: 1; flex-direction: row; justify-content: space-between; align-items: stretch; flex-basis: 100px; flex-shrink: 1; height: 100px;">
+            <ui:VisualElement name="VisualElement" style="flex-basis: 20%; flex-grow: 1; justify-content: center; align-items: center;">
+                <ui:Label text="当前选择的版本：" display-tooltip-when-elided="true" style="-unity-text-align: middle-left; margin-bottom: 2px;" />
+                <ui:Label text="Label" display-tooltip-when-elided="true" name="CurSelectVerLabel" style="-unity-text-align: middle-center; margin-bottom: 8px; -unity-font-style: bold; font-size: 13px; color: rgb(255, 255, 255);" />
+                <ui:Button text="更新到最新版本" display-tooltip-when-elided="true" name="UpdateToNew" class="a1" style="flex-basis: 20px; flex-shrink: 1; flex-grow: 0; flex-direction: column; width: 80%; background-color: rgb(109, 135, 68);" />
+                <ui:Button text="更新到目标版本" display-tooltip-when-elided="true" name="UpdateToTarget" class="a1" style="flex-basis: 20px; flex-shrink: 1; flex-grow: 0; flex-direction: column; width: 80%; background-color: rgb(52, 121, 137);" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-basis: 65%;">
+                <ui:ScrollView name="VerItemScrollView" style="height: 100px; flex-basis: 100%;" />
+            </ui:VisualElement>
+        </ui:GroupBox>
+    </ui:VisualElement>
+</ui:UXML>
