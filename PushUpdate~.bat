@@ -4,8 +4,8 @@
 cd /d %GAME_PROJECT_OUTPUTGITFOLDER%
 
 ::写入最新版本号到Versions.txt中
-echo %~2 > Versions.txt
-call MakeLastVersion.bat %~2
+::echo %~2 > Versions.txt
+call MakeLastVersion~.bat %~2
 
 ::提交检出均不转换
 git config --global core.autocrlf false
