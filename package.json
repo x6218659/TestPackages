@@ -1,7 +1,7 @@
 { 
    "displayName": "_GameConfigs", 
    "name": "com.wb.gameconfigs", 
-   "version": "0.0.33", 
+   "version": "0.0.34", 
    "unity": "2021.3", 
    "keywords": [   
        "wenbin", 
