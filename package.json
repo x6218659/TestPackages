@@ -1,7 +1,7 @@
 { 
    "displayName": "_GameConfigs", 
    "name": "com.wb.gameconfigs", 
-   "version": "0.0.38", 
+   "version": "0.0.39", 
    "unity": "2021.3", 
    "keywords": [   
        "wenbin", 
@@ -9,12 +9,10 @@
    ], 
    "category": "Unity", 
    "samples": [ 
-       { 
-           "//displayName说明":"图中2区域", 
-           "displayName": "tesst", 
-           "description": "Lololo", 
-           "//path说明":"文件夹一定是Samples~，要带~结束，才不会被package直接包含在内", 
-           "path": "Samples~/Test" 
+       {       
+           "displayName": "ConfigUpdatePanelPackage", 
+           "description": "配置更新面板插件", 
+           "path": "Samples~/UnityTool" 
        } 
    ] 
 } 

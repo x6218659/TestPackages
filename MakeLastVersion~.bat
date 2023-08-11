@@ -14,12 +14,10 @@ echo        "gameconfigs" >> package.json
 echo    ], >> package.json
 echo    "category": "Unity", >> package.json
 echo    "samples": [ >> package.json
-echo        { >> package.json
-echo            "//displayName说明":"图中2区域", >> package.json
-echo            "displayName": "tesst", >> package.json
-echo            "description": "Lololo", >> package.json
-echo            "//path说明":"文件夹一定是Samples~，要带~结束，才不会被package直接包含在内", >> package.json
-echo            "path": "Samples~/Test" >> package.json
+echo        { >> package.json      
+echo            "displayName": "ConfigUpdatePanelPackage", >> package.json
+echo            "description": "配置更新面板插件", >> package.json
+echo            "path": "Samples~/UnityTool" >> package.json
 echo        } >> package.json
 echo    ] >> package.json
 echo } >> package.json
